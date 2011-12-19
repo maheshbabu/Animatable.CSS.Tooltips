@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>More tooltips by Adam Whitcroft</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="more-tooltips.css">
+</head>
+<body class="wrapper">
+	<header>
+		<h1>More tooltips&hellip;</h1>
+		<p>A short time ago I made some pure <a href="http://adamwhitcroft.com/lab/css3-tooltips/">CSS3 Tooltips</a> and while these are a clean and simple way of adding tooltips, the lack of browser support for animations applied to pseudo-elements makes them a little boring.</p>
+		<p>These tooltips require a little extra markup, but it's well worth it</p>
+		<p><a href="#">View CSS</a></p>
+	</header>
+
+	<section>
+		<article>
+			<h2>Base markup</h2>
+			<p>The base markup for these tooltips is pretty straightforward. The content for your tooltip goes between the <code>span</code> tags.</p>
+			<pre><code>&lt;a href="#" class="tip-trigger"&gt;&lt;span&gt;Yay Tooltip!&lt;/span&gt;hover&lt;/a&gt;</code></pre>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<h2>Adding animations</h2>
+			<p>The interesting stuff starts when you add CSS3 animations into the mix. This is done simply by adding another class to the <code>anchor</code> tag, for example:</p>
+			<pre><code>&lt;a href="#" class="tip-trigger tipFade"&gt;&lt;span&gt;Yay Tooltip!&lt;/a&gt;</code></pre>			
+		<article>
+		<article>
+			<p><code>class="tipFade"</code> - <a href="#" class="tip-trigger tipFade"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>		
+		<article>
+			<p><code>class="tipFadeDown"</code> - <a href="#" class="tip-trigger tipFadeDown"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>
+		<article>
+			<p><code>class="tipFadeUp"</code> - <a href="#" class="tip-trigger tipFadeUp"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>	
+		<article>
+			<p><code>class="tipFadeLeft"</code> - <a href="#" class="tip-trigger tipFadeLeft"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>	
+		<article>
+			<p><code>class="tipFadeRight"</code> - <a href="#" class="tip-trigger tipFadeRight"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>
+		<article>
+			<p><code>class="tipBounceDown"</code> - <a href="#" class="tip-trigger tipBounceDown"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>	
+		<article>
+			<p><code>class="tipZoomIn"</code> - <a href="#" class="tip-trigger tipZoomIn"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>	
+		<article>
+			<p><code>class="tipZoomOut"</code> - <a href="#" class="tip-trigger tipZoomOut"><span>Yay Tooltip!</span>hover</a> over me.</p>
+		</article>												
+	</section>
+
+</body>
+</html>
