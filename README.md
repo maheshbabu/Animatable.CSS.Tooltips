@@ -10,4 +10,4 @@ For detailed instructions on how to use this pack, please refer to the <a href="
 
 ##License
 
-The styles and code herein are released under http://unlicense.org/.
+Licensed under <a href="http://licence.visualidiot.com/">&#9786; License</a>.
