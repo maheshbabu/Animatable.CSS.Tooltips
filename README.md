@@ -1,12 +1,14 @@
 #More Tooltips
 
-A short time ago I made some pure CSS3 Tooltips and while these are a clean and simple way of adding tooltips, the lack of browser support for animations applied to pseudo-elements makes them a little boring.
+Following on from the pure <a href="https://github.com/AdamWhitcroft/CSS3.Tooltips">CSS3 tooltips</a> I posted a little while ago, I offer up another solution.
 
-These tooltips require a little extra markup, but it's well worth it
+These differ from my original post however both in markup and function. The original tooltips made use of the <code>:before</code> and <code>:after</code> pseudo-elements and while this is probably the most succinct method the major downfall is that CSS animations and transitions can not, at this time, be applied to pseudo-elements.
+
+With only a minor change in the markup, these tooltips are completely animatable.
 
 ##How to use
 
-For detailed instructions on how to use this pack, please refer to the <a href="http://adamwhitcroft.com/lab/more-tooltips/">demo page</a> on my website.
+For detailed instructions on how to use this pack, please refer to the <a href="http://adamwhitcroft.com/lab/animatable-tooltips/">demo page</a> on my website.
 
 ##License
 
