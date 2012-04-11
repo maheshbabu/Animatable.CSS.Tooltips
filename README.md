@@ -1,4 +1,4 @@
-#More Tooltips
+#Animatable CSS Tooltips
 
 Following on from the pure <a href="https://github.com/AdamWhitcroft/CSS3.Tooltips">CSS3 tooltips</a> I posted a little while ago, I offer up another solution.
 
@@ -8,7 +8,7 @@ With only a minor change in the markup, these tooltips are completely animatable
 
 ##How to use
 
-For detailed instructions on how to use this pack, please refer to the <a href="http://adamwhitcroft.com/lab/animatable-tooltips/">demo page</a> on my website.
+For detailed instructions on how to use this pack, please refer to the <a href="http://adamwhitcroft.com/lab/animatable-css-tooltips/">demo page</a> on my website.
 
 ##License
 
